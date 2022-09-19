@@ -50,10 +50,55 @@ header nav .nav-link a:hover {
 }
 
 header nav .login-button {
-    color: #23272a;
     font-size: 14px;
-    text-decoration: none;
     background-color: white;
     padding: 10px 15px;
     border-radius: 30px;
+}
+
+header nav .login-button a {
+    color: #23272a;
+    text-decoration: none;
+
+}
+
+.hero-container {
+    width: 800px;
+    margin: 120px auto;
+    padding: 0 50px;
+    text-align: center;
+    color: white;
+}
+
+.hero-container h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.hero-container p {
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+.hero-button {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.button {
+    padding: 16px 32px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.primary.button {
+    background-color: white;
+    color: #23272a;
+}
+
+.secondary.button {
+    background-color: #23272a;
+    color: white;
 }
