@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    /* background-color: aqua; */
+}
+
+.hero-section {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 1 auto;
+    width: 100%;
+    height: 80px;
+}
+
+header nav .nav-link {
+    font-weight: 500;
+}
+
+header nav .nav-link a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+header nav .nav-link a:hover {
+    text-decoration: underline;
+}
+
+header nav .login-button {
+    color: #23272a;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
