@@ -8,8 +8,7 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
+/* ----------- HEADER --------------- */
 .hero-section {
     background-image: url("../img/jumbo.png");
     background-size: cover;
@@ -18,7 +17,7 @@ html {
 }
 
 header {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -31,12 +30,9 @@ header nav {
     height: 80px;
 }
 
-header nav .nav-link {
-    font-weight: 500;
-}
-
 header nav .nav-link a {
     color: white;
+    font-weight: 500;
     text-decoration: none;
     margin: 10px;
     padding: 10px;
@@ -46,21 +42,16 @@ header nav .nav-link a:hover {
     text-decoration: underline;
 }
 
-header nav .login-button {
-    font-size: 14px;
-    background-color: white;
-    padding: 10px 15px;
-    border-radius: 30px;
-}
-
-header nav .login-button a {
+header nav .login-button #mini-button {
     color: #23272a;
     text-decoration: none;
-
+    font-weight: 500;
+    padding: 10px 15px;
+    font-size: 14px;
 }
 
 .hero-container {
-    width: 800px;
+    max-width: 800px;
     margin: 120px auto;
     padding: 0 50px;
     text-align: center;
@@ -77,7 +68,7 @@ header nav .login-button a {
     line-height: 1.7;
 }
 
-.hero-button {
+.hero-container .hero-button {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -90,9 +81,23 @@ header nav .login-button a {
     text-decoration: none;
 }
 
+.button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+}
+
 .primary.button {
     background-color: white;
     color: #23272a;
+}
+
+.primary.button:hover {
+    color: #5865f2;
+}
+
+.primary.button i{
+    margin-right: 4px;
 }
 
 .secondary.button {
@@ -100,11 +105,15 @@ header nav .login-button a {
     color: white;
 }
 
+.secondary.button:hover {
+    background-color: #2c2f33;
+}
+
 
 /* -------- MAIN ------- */
 
 main .image-text {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto 0;
     padding: 120px 0;
 }
@@ -159,3 +168,16 @@ main .image-text {
     padding: 16px 32px;
 }
 
+.title-cta .button:hover {
+    background-color: #8ea1e1;
+}
+
+/* -------- FOOTER ------- */
+footer {
+    background-color: #23272a;
+}
+
+.footer-body {
+    width: 1200px;
+    margin: 0 auto;
+}
