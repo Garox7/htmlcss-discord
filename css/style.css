@@ -119,10 +119,14 @@ header nav .login-button .mini-button {
 }
 
 /* -------- MAIN ------- */
-main .image-text {
+main .size-section {
     max-width: 1200px;
     margin: 0 auto 0;
     padding: 120px 0;
+}
+
+main .size-section.extra {
+    padding: 170px 0;
 }
 
 .flex-row {
@@ -272,4 +276,21 @@ footer {
 
 .footer-bottom .mini-button:hover {
     background-color: #8ea1e1;
+}
+
+/* ------- BONUS ------- */
+
+.wave {
+    margin-top: -60px;
+}
+
+.rotate {
+    margin-bottom: -60px;
+    transform: rotate(180deg);
+}
+
+.wave-section {
+    max-width: 1200px;
+    margin: 0 auto 0;
+    padding: 80px 0;
 }
